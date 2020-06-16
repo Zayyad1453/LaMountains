@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'Hurme';
+    src: url('./../fonts/Hurme/HurmeGeometricSans3-Regular.eot');
+    src: url('./../fonts/Hurme/HurmeGeometricSans3-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./../fonts/Hurme/HurmeGeometricSans3-Regular.woff2') format('woff2'),
+        url('./../fonts/Hurme/HurmeGeometricSans3-Regular.woff') format('woff'),
+        url('./../fonts/Hurme/HurmeGeometricSans3-Regular.ttf') format('truetype'),
+        url('./../fonts/Hurme/HurmeGeometricSans3-Regular.svg#HurmeGeometricSans3-Regular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brush';
+    src: url('./../fonts/Brush/DKCinnabarBrush.eot');
+    src: url('./../fonts/Brush/DKCinnabarBrushDk?#iefix') format('embedded-opentype'),
+        url('./../fonts/Brush/DKCinnabarBrush.woff2') format('woff2'),
+        url('./../fonts/Brush/DKCinnabarBrush.woff') format('woff'),
+        url('./../fonts/Brush/DKCinnabarBrush.ttf') format('truetype'),
+        url('./../fonts/Brush/DKCinnabarBrush.svg#DKCinnabarBrush') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Hurme';
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+body{
+    background: rgb(195,68,86);
+    overflow-x: hidden;
+}
+
+section{
+    height:100%;
+    width:100%;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+#main {
+    content:'THIIIIS';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../src/images/jumbo.png');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#main .bag img{
+    display: block;
+    margin: 0 auto 10px;
+    width: 100%;
+    height: auto;        
+}
+
+#main .text, #main .bag{
+    padding: 10px;
+}
+
+#benefits{
+    background-color: #f6f6f6;
+}
+
+#benefits .text{
+    font-weight: 500;
+}
+
+#benefits .benefits-cup{
+    content: url('./../../images/benefits-cup.png');
+    position: absolute;
+    top: -220px;
+    z-index: 0;    
+}
+
+#didyouknow{
+    background-color: #fff;
+    z-index: 1;
+    position: relative;    
+}
+
+#wrapper .card{
+    margin: 10%;
+    padding: 5%;
+    background: rgb(255,255,255);
+    box-shadow: 10px 10px 10px 0 rgba(0,0,0,0.6);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */    
+    z-index: 2;
+    min-width: 100px;
+    min-height:100px;
+}
+
+#wrapper .card {
+    /* padding: 50px; */
+    text-align: center;    
+    position: relative;
+    color: rgb(0,0,0);
+} 
+
+
+
+.red{
+    color:rgb(195,68,86);
+}
+@media only screen and (max-width : 320px) {
+    /* Styles */
+
+
+}
+
+
+.brush{
+    font-family: 'Brush';
+}
+
+.cr{
+    color: #c04355;
+}
+
+.cg{
+  color: #f6f6f6'   
+}
+
+.cw{
+    color: #fff;
+}
+
+.text-s{
+    font-size: 2.2vh; 
+}
+
+.text-sm{
+    font-size: 2.5vh;
+}
+
+.text-m{
+    font-size: 3vh;
+}
+.text-l{
+    font-size: 10vh; 
+}
+
+.title{
+    padding: 5px 0 20px;
+}
+
+.title, .sub-title {
+    margin: 0 auto;
+}
+
+.sub-title{
+    margin-top: -15px;
+}
+.logo{
+    content: url('./../../images/logos/logo_w.png');
+    display: block;
+    margin: 0 auto 10px;
+    max-width:230px;
+    max-height:95px;
+    width: auto;
+    height: auto;    
+}
+
+
+/*NAV*/
+
+#header {
+    /* background-color:#ffd727; */
+    height:40px;
+    margin:auto;
+}
+
+
+#header ul {
+  margin:0 auto;
+  width:670px;
+  list-style: none;
+  *zoom: 1;
+}
+
+#header ul:after {
+    clear:both;
+    display: table;
+    content: "";
+}
+
+#header li {
+  float: left;
+}
+
+#header a {
+    padding:14px;
+    text-align:center;
+    display:block; 
+    font-weight: bold;   
+    text-decoration:none;
+}    
+
+#header
+
+
+
+    
+#header ul li a.logo {
+    background: url("./../../images/logos/logo_w.png");
+    background-repeat:no-repeat;
+    height:140px;
+    display:block;
+    width:auto;
+    margin-top:-50px;
+    padding: 0;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
