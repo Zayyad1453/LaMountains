@@ -15,8 +15,8 @@ class Benefits extends Component {
         <div className="tab-content h-100">
           <div className="tab-pane active" id="tab1">
 
-            <div className="row">
-              <div className="container">
+            <div className="container">
+              <div className="row w-100">
                 <div className="col-md-6">
                   <div className="panel panel-default">
                     <div className="panel-heading">
@@ -105,8 +105,8 @@ class Benefits extends Component {
 
           <div className="tab-pane" id="tab2">
 
-            <div className="row">
-              <div className="container">
+            <div className="container">
+              <div className="row w-100">
                 <div className="col-md-6">
 
                   <div className="panel panel-default">
